@@ -45,7 +45,7 @@ h1,h2,h3,h4 {
 .header .page-title {
    color:rgb(158,167,168);
    font-size:18px;
-   padding-top: 10px;
+   padding-top: 20px;
    display: inline-block;
 }
 .logo {
@@ -128,7 +128,7 @@ p {
 .back {
     position:absolute;
     left:10px;
-    top:8px;
+    top:16px;
     color:rgb(158,167,168);
 }
 .back .fa {

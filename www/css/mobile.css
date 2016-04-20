@@ -7,6 +7,12 @@
         border-bottom:1px solid rgb(178,178,178);
         text-align:center;
     }
+    .back {
+        top:8px;
+    }
+    .header .page-title {
+       padding-top: 10px;
+    }
     .logo {
         max-width:135px;
     }
