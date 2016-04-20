@@ -8,6 +8,7 @@ html, body, .app {
     padding:0;
     margin:0;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color:#fff;
 }
 .view {
     width: 100%;
@@ -25,34 +26,116 @@ html, body, .app {
 .screen {
     width: 100%;
     height: 100%;
-    padding:20px;
+    background:#fff;
 }
-.screen.grey {
-    background:#999;
-}
-.screen.red {
-    background: #aa0000;
-}
+
 h1,h2,h3,h4 {
     padding:0;
     margin:0;
     color:#fff;
 }
-.content-center {
-    position:absolute;
-    top:35%;
+.header {
+    display:inline-block;
     width:100%;
+    height:70px;
+    background-color:rgb(248,248,248);
+    border-bottom:1px solid rgb(178,178,178);
     text-align:center;
-    left:0;
 }
-button {
-    border: 2px solid #fff;
-    border-radius:2px;
-    background:none;
-    color:#fff;
-    height:50px;
-    min-width:200px;
-    margin-top:20px;
+.header .page-title {
+   color:rgb(158,167,168);
+   font-size:18px;
+   padding-top: 10px;
+   display: inline-block;
+}
+.logo {
+    max-width:180px;
+}
+p {
+    color:rgb(158,167,168);
+    font-size:16px;
+}
+.intro {
     font-size:20px;
-    outline:none;
+    text-align:center;
+    padding: 5px 50px;
+}
+.menu {
+    text-align:center;
+    display:inline-block;
+    width:100%;
+    height: 225px;
+}
+.round-button {
+    width:120px;
+    height:120px;
+    border-radius: 60px;
+}
+.want-help {
+    background:#4a996a;
+    display:inline-block;
+    color:#fff;
+}
+.need-help {
+    background:#30a9cc;
+    display:inline-block;
+    position:relative;
+    top:50px;
+    color:#fff;
+}
+.need-help span {
+    position:relative;
+    top:45px;
+    font-size: 20px;
+}
+.want-help span.line-1 {
+    position:relative;
+    top:25px;
+    font-size: 20px;
+}
+.want-help span.line-2 {
+    position:relative;
+    top:25px;
+    font-size: 30px;
+}
+.line-1 {
+    display:block;
+}
+.line-2 {
+    display:block;
+}
+.search {
+    display:inline-block;
+    width:100%;
+    padding:20px;
+}
+.search input {
+    width:100%;
+    height:40px;
+    font-size:16px;
+    padding:0 10px 0 40px;
+    border:1px solid #ccc;
+    background:#ddd;
+    border-radius:2px;
+    color:rgb(158,167,168);
+}
+.search .fa {
+    position:relative;
+    top:30px;
+    left:20px;
+    color:rgb(158,167,168);
+}
+.back {
+    position:absolute;
+    left:10px;
+    top:8px;
+    color:rgb(158,167,168);
+}
+.back .fa {
+    font-size:30px;
+}
+.back span {
+    margin-left:10px;
+    position:relative;
+    top:-4px;
 }

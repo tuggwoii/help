@@ -1,6 +1,21 @@
-<div class="screen grey" ng-controller="MainController">
-    <div class="content-center">
-        <h1>Cordova Starter Kit</h1>
-        <button ng-click="onClick()">NEXT</button>
+<div class="screen" ng-controller="MainController">
+    <div class="header">
+        <img class="logo" alt="LOGO" src="img/logo.png" />
+    </div>
+    <div class="content">
+        <p class="intro">{{strings['intro']}}</p>
+        <div class="menu">
+            <div class="round-button want-help" ng-click="help()">
+                <span class="line-1">{{strings['want_help_1']}}</span>
+                <span class="line-2">{{strings['want_help_2']}}</span>
+            </div>
+            <div class="round-button need-help" ng-click="find()">
+                <span>{{strings['need_help']}}</span>
+            </div>
+        </div>
+        <div class="search">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="{{strings['search']}}" />
+        </div>
     </div>
 </div>

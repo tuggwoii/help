@@ -2,6 +2,7 @@
 module.service('PageService', function ($rootScope) {
     var screens = [
         { name: 'index', url: '/' },
+        { name: 'category', url: '/category' },
         { name: 'test', url: '/test' }
     ];
 

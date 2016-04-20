@@ -7,9 +7,11 @@ module.config(function ($stateProvider, $urlRouterProvider) {
       .state('home', {
           url: "/",
           templateUrl: "views/index.html"
-      })
-      .state('other', {
+      }).state('other', {
           url: "/test",
           templateUrl: "views/test.html"
+      }).state('category', {
+          url: "/category",
+          templateUrl: "views/category.html"
       });
 });

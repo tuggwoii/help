@@ -5,8 +5,13 @@ module.controller('MainController', function ($rootScope, $scope, PageService) {
 
     };
 
-    $scope.onClick = function () {
-        PageService.moveTo('test', 'left');
+    $scope.help = function () {
+       
+    };
+
+    $scope.find = function () {
+        console.log('here');
+        PageService.moveTo('category', 'left');
     };
 
     $scope.onStart();
