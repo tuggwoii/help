@@ -1,0 +1,26 @@
+{
+  "name": "cstk",
+  "authors": [
+    "tugg.solo@gmail.com"
+  ],
+  "description": "cstk",
+  "main": "",
+  "moduleType": [
+    "es6",
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.3",
+    "jquery": "^2.2.3",
+    "angular-animate": "^1.5.3"
+  }
+}

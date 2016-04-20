@@ -1,0 +1,92 @@
+﻿.view {
+     position:absolute;
+}
+.left .view.ng-enter,  
+.left .view.ng-leave,  
+.right .view.ng-enter,  
+.right .view.ng-leave,
+.up .view.ng-enter,  
+.up .view.ng-leave,
+.down .view.ng-enter,  
+.down .view.ng-leave
+{  
+    -ms-transition: .25s ease-in-out;  
+    -webkit-transition: .25s ease-in-out;  
+    transition: .25s ease-in-out;  
+     -webkit-transform: translateX(0);  
+    transform: translateX(0);  
+     -webkit-transform: translateY(0);  
+    transform: translateY(0);  
+}  
+.left .view.ng-enter {  
+    z-index: 101;  
+    -webkit-transform: translateX(100%);  
+    transform: translateX(100%);  
+}  
+.left .view.ng-enter.ng-enter-active {  
+    -webkit-transform: translateX(0);  
+    transform: translateX(0);  
+}  
+.left .view.ng-leave {   
+    -webkit-transform: translateX(0);  
+    transform: translateX(0);  
+}  
+.left .view.ng-leave.ng-leave-active {  
+    -webkit-transform: translateX(-20%);  
+    transform: translateX(-20%);  
+    opacity: 0.7;
+}  
+
+.right .view.ng-enter {  
+    z-index: 100;  
+    -webkit-transform: translateX(-100%);  
+    transform: translateX(-100%);  
+}  
+.right .view.ng-enter.ng-enter-active {  
+    -webkit-transform: translateX(0);  
+    transform: translateX(0);  
+}  
+.right .view.ng-leave {   
+    -webkit-transform: translateX(0);  
+    transform: translateX(0); 
+}  
+.right .view.ng-leave.ng-leave-active {  
+    -webkit-transform: translateX(20%);  
+    transform: translateX(20%); 
+     opacity: 0.7; 
+}  
+
+.up .view.ng-enter {  
+    -webkit-transform: translateY(100%);  
+    transform: translateY(100%);  
+}  
+.up .view.ng-enter.ng-enter-active {  
+    -webkit-transform: translateY(0);  
+    transform: translateY(0);  
+}  
+.up .view.ng-leave {   
+    -webkit-transform: translateY(0);  
+    transform: translateY(0);  
+}  
+.up .view.ng-leave.ng-leave-active {  
+    -webkit-transform: translateY(-100%);  
+    transform: translateY(-100%);  
+}  
+
+.down .view.ng-enter {  
+    z-index: 100;  
+    -webkit-transform: translateY(-100%);  
+    transform: translateY(-100%);  
+}  
+.down .view.ng-enter.ng-enter-active {  
+    -webkit-transform: translateY(0);  
+    transform: translateY(0);  
+}  
+.down .view.ng-leave {   
+    -webkit-transform: translateY(0);  
+    transform: translateY(0);  
+}  
+.down .view.ng-leave.ng-leave-active {  
+    -webkit-transform: translateY(100%);  
+    transform: translateY(100%);  
+}  

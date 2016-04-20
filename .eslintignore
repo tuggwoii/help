@@ -1,0 +1,5 @@
+﻿# ignore everything in the packages folders
+**/packages
+ 
+# ignore everything in Scripts except files beginning with "myapp"
+**/www/js/libs
